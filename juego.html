@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Memorama</title>
+    <link rel="icon" href="https://web.fdje.org/assets/images/template/fundacion.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+    Memorama...
+    🍏 🧠
+    <div>
+    <select id="dificultad">
+                    <option value="0">ELEGIR DIFICULTAD</option>
+                    <option value="4">FÁCIL</option>
+                    <option value="6">MEDIO</option>
+                    <option value="8">DÍFICIL</option>
+    </select>          
+    <button id="comenzar">¡Comenzar!</button>    
+    <div id="contador" hidden>Intentos: 0</div>  
+    </div> 
+    </div>
+    <div id="tablero">          
+        <!– Acá van las cartas –>
+    </div>
+    </div>
+</body>
+
+<script src="JS/jquery-3.3.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script src="JS/juego.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
